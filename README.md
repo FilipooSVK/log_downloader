@@ -1,9 +1,11 @@
 Log Downloader
 
 Overview
+
 The Log Downloader is a Python script with a graphical user interface (GUI) built using the Tkinter library. It allows users to download log files from a remote server via SSH, remove them from the remote server, and save information about the downloaded logs in a JSON file.
 
 Features
+
 SSH Connectivity: Users are prompted to enter their SSH username and password to connect to a remote server.
 
 Download Logs: The script lists log files in a specified source folder on the remote server, allowing users to download them to a local directory.
@@ -19,6 +21,7 @@ Browse for Local Directory: Users can choose the local directory where log files
 Exit Button: An exit button allows users to close the application.
 
 Instructions
+
 Run the script, and the GUI window will appear.
 
 Enter your SSH username and password when prompted.
