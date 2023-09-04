@@ -53,9 +53,6 @@ Copy code
 
 Run the Script: Navigate to the project directory and run the script:
 
-bash
-
-Copy code
 cd log-downloader
 python main.py
 Use the GUI: The graphical user interface will appear. Follow the on-screen instructions to connect to a remote server, download logs, and manage them.
