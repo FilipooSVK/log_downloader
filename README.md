@@ -1,24 +1,25 @@
-#Log Downloader
-#Overview
-#The Log Downloader is a Python script with a graphical user interface (GUI) built using the Tkinter library. It allows users to download log files from a remote server via SSH, remove them from the remote server, and save information about the downloaded logs in a JSON file.
+Log Downloader
 
-#Features
-#SSH Connectivity: Users are prompted to enter their SSH username and password to connect to a remote server.
+Overview
+The Log Downloader is a Python script with a graphical user interface (GUI) built using the Tkinter library. It allows users to download log files from a remote server via SSH, remove them from the remote server, and save information about the downloaded logs in a JSON file.
 
-#Download Logs: The script lists log files in a specified source folder on the remote server, allowing users to download them to a local directory.
+Features
+SSH Connectivity: Users are prompted to enter their SSH username and password to connect to a remote server.
 
-#Progress Bar: A progress bar using the tqdm library displays the download progress.
+Download Logs: The script lists log files in a specified source folder on the remote server, allowing users to download them to a local directory.
 
-#Removal from Remote: After successful download, the script removes the downloaded log files from the remote server to save space.
+Progress Bar: A progress bar using the tqdm library displays the download progress.
 
-#Save to JSON: The script allows users to save information about the downloaded logs, including the server hostname, username, source folder, and a list of downloaded log files, to a JSON file.
+Removal from Remote: After successful download, the script removes the downloaded log files from the remote server to save space.
 
-#Browse for Local Directory: Users can choose the local directory where log files will be downloaded.
+Save to JSON: The script allows users to save information about the downloaded logs, including the server hostname, username, source folder, and a list of downloaded log files, to a JSON file.
 
-#Exit Button: An exit button allows users to close the application.
+Browse for Local Directory: Users can choose the local directory where log files will be downloaded.
 
-#Instructions
-#Run the script, and the GUI window will appear.
+Exit Button: An exit button allows users to close the application.
+
+Instructions
+Run the script, and the GUI window will appear.
 
 Enter your SSH username and password when prompted.
 
